@@ -1,0 +1,182 @@
+[
+  {
+    "subject": "S001",
+    "original_subject": "S113",
+    "gender": "Female",
+    "age": 27,
+    "type": "Breath",
+    "code": "MB",
+    "recording": "R01",
+    "file": "data/S001/S001_MB_R01.wav"
+  },
+  {
+    "subject": "S001",
+    "original_subject": "S113",
+    "gender": "Female",
+    "age": 27,
+    "type": "Cough",
+    "code": "MC",
+    "recording": "R01",
+    "file": "data/S001/S001_MC_R01.wav"
+  },
+  {
+    "subject": "S001",
+    "original_subject": "S113",
+    "gender": "Female",
+    "age": 27,
+    "type": "Speech",
+    "code": "MS",
+    "recording": "R01",
+    "file": "data/S001/S001_MS_R01.wav"
+  },
+  {
+    "subject": "S002",
+    "original_subject": "S087",
+    "gender": "Female",
+    "age": 17,
+    "type": "Breath",
+    "code": "MB",
+    "recording": "R01",
+    "file": "data/S002/S002_MB_R01.wav"
+  },
+  {
+    "subject": "S002",
+    "original_subject": "S087",
+    "gender": "Female",
+    "age": 17,
+    "type": "Cough",
+    "code": "MC",
+    "recording": "R01",
+    "file": "data/S002/S002_MC_R01.wav"
+  },
+  {
+    "subject": "S002",
+    "original_subject": "S087",
+    "gender": "Female",
+    "age": 17,
+    "type": "Speech",
+    "code": "MS",
+    "recording": "R01",
+    "file": "data/S002/S002_MS_R01.wav"
+  },
+  {
+    "subject": "S003",
+    "original_subject": "S034",
+    "gender": "Male",
+    "age": 24,
+    "type": "Breath",
+    "code": "MB",
+    "recording": "R01",
+    "file": "data/S003/S003_MB_R01.wav"
+  },
+  {
+    "subject": "S003",
+    "original_subject": "S034",
+    "gender": "Male",
+    "age": 24,
+    "type": "Cough",
+    "code": "MC",
+    "recording": "R01",
+    "file": "data/S003/S003_MC_R01.wav"
+  },
+  {
+    "subject": "S003",
+    "original_subject": "S034",
+    "gender": "Male",
+    "age": 24,
+    "type": "Speech",
+    "code": "MS",
+    "recording": "R01",
+    "file": "data/S003/S003_MS_R01.wav"
+  },
+  {
+    "subject": "S004",
+    "original_subject": "S022",
+    "gender": "Male",
+    "age": 29,
+    "type": "Breath",
+    "code": "MB",
+    "recording": "R01",
+    "file": "data/S004/S004_MB_R01.wav"
+  },
+  {
+    "subject": "S004",
+    "original_subject": "S022",
+    "gender": "Male",
+    "age": 29,
+    "type": "Cough",
+    "code": "MC",
+    "recording": "R01",
+    "file": "data/S004/S004_MC_R01.wav"
+  },
+  {
+    "subject": "S004",
+    "original_subject": "S022",
+    "gender": "Male",
+    "age": 29,
+    "type": "Speech",
+    "code": "MS",
+    "recording": "R01",
+    "file": "data/S004/S004_MS_R01.wav"
+  },
+  {
+    "subject": "S005",
+    "original_subject": "S072",
+    "gender": "Male",
+    "age": 30,
+    "type": "Breath",
+    "code": "MB",
+    "recording": "R01",
+    "file": "data/S005/S005_MB_R01.wav"
+  },
+  {
+    "subject": "S005",
+    "original_subject": "S072",
+    "gender": "Male",
+    "age": 30,
+    "type": "Cough",
+    "code": "MC",
+    "recording": "R01",
+    "file": "data/S005/S005_MC_R01.wav"
+  },
+  {
+    "subject": "S005",
+    "original_subject": "S072",
+    "gender": "Male",
+    "age": 30,
+    "type": "Speech",
+    "code": "MS",
+    "recording": "R01",
+    "file": "data/S005/S005_MS_R01.wav"
+  },
+  {
+    "subject": "S006",
+    "original_subject": "S107",
+    "gender": "Female",
+    "age": 19,
+    "type": "Breath",
+    "code": "MB",
+    "recording": "R01",
+    "file": "data/S006/S006_MB_R01.wav"
+  },
+  {
+    "subject": "S006",
+    "original_subject": "S107",
+    "gender": "Female",
+    "age": 19,
+    "type": "Cough",
+    "code": "MC",
+    "recording": "R01",
+    "file": "data/S006/S006_MC_R01.wav"
+  },
+  {
+    "subject": "S006",
+    "original_subject": "S107",
+    "gender": "Female",
+    "age": 19,
+    "type": "Speech",
+    "code": "MS",
+    "recording": "R01",
+    "file": "data/S006/S006_MS_R01.wav"
+  }
+]

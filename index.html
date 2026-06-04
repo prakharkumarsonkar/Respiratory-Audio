@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Respiratory Audio Analysis</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- WaveSurfer for waveform and audio playback -->
+  <script src="https://unpkg.com/wavesurfer.js@7"></script>
+
+  <!-- FFT library for custom spectrogram drawing -->
+  <!-- <script src="https://unpkg.com/fft.js@4.0.4/lib/fft.js"></script> -->
+   
+</head>
+
+<body>
+  <header>
+    <h1>Respiratory Audio Analysis</h1>
+    <span class="status">Ready</span>
+  </header>
+
+  <main>
+    <!-- Subject information -->
+    <section class="info-card">
+      <div>
+        <span>Subject</span>
+        <strong id="subject">Choose file</strong>
+      </div>
+
+      <div>
+        <span>Gender</span>
+        <strong id="gender">-</strong>
+      </div>
+
+      <div>
+        <span>Age</span>
+        <strong id="age">-</strong>
+      </div>
+
+      <div>
+        <span>Type</span>
+        <strong id="type">-</strong>
+      </div>
+    </section>
+
+    <!-- Waveform -->
+    <section class="viewer-card">
+      <h2>Amplitude <small>Time Domain</small></h2>
+
+      <div id="waveform" class="empty-box">
+        Select an audio file to display waveform
+      </div>
+
+      <div id="waveTimeAxis" class="time-axis"></div>
+    </section>
+
+    <!-- Spectrogram -->
+    <section class="viewer-card">
+      <h2>Spectrogram <small>Frequency × Time</small></h2>
+
+      <div class="spectrogram-panel">
+        <div class="freq-axis">
+          <span>24 kHz</span>
+          <span>18 kHz</span>
+          <span>12 kHz</span>
+          <span>6 kHz</span>
+          <span>0 kHz</span>
+        </div>
+
+        <div class="spectrogram-main">
+          <canvas id="spectrogramCanvas"></canvas>
+          <div id="spectrogramTimeAxis" class="time-axis"></div>
+        </div>
+
+        <div class="colorbar"></div>
+      </div>
+    </section>
+
+    <!-- Controls -->
+    <section class="controls">
+      <button id="playBtn" disabled>▶ Play</button>
+
+      <label class="zoom-label">
+        Zoom
+        <input id="zoomSlider" type="range" min="20" max="500" value="80" disabled />
+      </label>
+    </section>
+
+    <!-- Audio list -->
+    <section class="list-card">
+      <h2>Audio Files</h2>
+      <div id="audioList"></div>
+    </section>
+  </main>
+
+  <!-- Main JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
